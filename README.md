@@ -1,6 +1,6 @@
 # Convolutional Neural Network: NumPy Deep Learning Framework
 
-A complete deep learning framework built from scratch using only **NumPy**, featuring comprehensive mathematical documentation and achieving **92.70% test accuracy** on MNIST in just **5 epochs**.
+A complete deep learning framework built from scratch using only **NumPy**, featuring comprehensive mathematical documentation and achieving **97.70% test accuracy** on MNIST.
 
 This project was done over the course of two months. The majority of the time spent was on learning the theory behind machine learning and applying it mathematically in code. The goal of the project was to develop a CNN that scored higher on the MNIST than both the TensorFlow and PyTorch libraries in less time. This is made possible due to these libraries being generalized for commercial use, while this project is hyperoptimized for one specific architecture and can cut corners to save time (but not optimized *purely* for MNIST; it still delivers good results on other datasets, such as Fashion MNIST). At the moment, layers like Dense and Softmax achieve, respectively, 50x and 150x faster runtimes than those of popular libraries. However, the main time losses are found in the backward pass of the training loop, which libraries often skip due to more optimal alternatives. As this project is further developed, a similar approach will be taken.
 
