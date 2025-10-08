@@ -29,10 +29,10 @@ Conv2D(8, 3×3) → ReLU → MaxPool(2×2)
 
 ## Results
 
-* **Training Accuracy:** 91.08%
-* **Test Accuracy:** 92.70%
+* **Training Accuracy:** 98.08%
+* **Test Accuracy:** 97.70%
 * **Parameters:** ~50K (efficient architecture)
-* **Training Time:** 5 epochs, batch size 512
+* **Training Time:** 20 epochs, batch size 512
 
 ---
 
